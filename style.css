@@ -1,0 +1,188 @@
+:root {
+  --primary: #880e4d;
+  --time: #48494b;
+  --secondary: #ffeeba;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-style: none;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 480px) {
+  .header {
+    text-align: center;
+    background-color: var(--primary);
+    padding: 0 0 0.7rem;
+  }
+
+  .header main {
+    padding: 1.5rem 0 0;
+  }
+
+  .header main img {
+    height: 5rem;
+  }
+
+  .header .time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header .time {
+    margin: 1.7rem 0;
+  }
+
+  .header .time .text {
+    padding: 0.8rem 1.3rem;
+    border-radius: 5px 0 0 5px;
+    color: var(--time);
+    background-color: #fff;
+  }
+
+  .header .time .waktu {
+    padding: 0.8rem 1.3rem;
+    border-radius: 0 5px 5px 0;
+    color: var(--time);
+    background-color: var(--secondary);
+  }
+
+  .soal .wrapper {
+    width: 95%;
+    margin: 1rem auto;
+    border-radius: 10px;
+    box-shadow: 7px 10px 63px -18px rgba(0, 0, 0, 0.75);
+  }
+
+  .soal .wrapper .card-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #eaeaea;
+    /* background-color: powderblue; */
+    border-radius: 10px 10px 0 0;
+  }
+
+  .soal .wrapper .card-1 p {
+    font-size: 1.4rem;
+    color: #000;
+  }
+
+  .soal .wrapper .card-1 span {
+    padding: 0 0.5rem;
+    border-radius: 50%;
+    background-color: var(--primary);
+  }
+
+  .soal .wrapper .card-1 .text-size button {
+    background: none;
+    color: #000;
+    margin: 0 0.2rem;
+    font-weight: 400;
+    background-color: #666;
+    /* padding: 0.5rem 0.8rem; */
+    border-radius: 5px;
+  }
+
+  .soal .wrapper .card-1 .text-size .cta-1 {
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 1rem;
+    background-color: var(--primary);
+  }
+
+  .soal .wrapper .card-1 .text-size .cta-2 {
+    width: 1.8rem;
+    height: 1.8rem;
+    font-size: 1rem;
+  }
+
+  .soal .wrapper .card-1 .text-size .cta-3 {
+    width: 2.2rem;
+    height: 2.2rem;
+    font-size: 1rem;
+  }
+
+  /* .soal .wrapper .card-2 {
+    padding-left: 0.3rem;
+  } */
+
+  .soal .wrapper .card-2 p {
+    color: #000;
+  }
+
+  .soal .wrapper .card-2 .pertanyaan {
+    display: inline-block;
+    padding-left: 0.4rem;
+    padding-top: 0.7rem;
+  }
+
+  .soal .wrapper .card-2 span {
+    border-bottom: 1px solid #bbbbbb;
+  }
+
+  .soal .wrapper .card-2 span::after {
+    content: "";
+    display: block;
+    margin: auto;
+    border-bottom: 1px solid #b6b3b3;
+    transform: scaleX(0.97);
+    padding-left: 0;
+    padding-bottom: 0.8rem;
+  }
+
+  .soal .wrapper .card-2 div {
+    display: flex;
+    align-items: center;
+    padding-left: 0.8rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-bottom: 1px solid #b6b3b3;
+    transform: scaleX(0.97);
+  }
+
+  .soal .wrapper .card-2 div:nth-child(7) {
+    border-bottom: none;
+  }
+
+  .soal .wrapper .card-2 div p:nth-child(2) {
+    margin-left: 0.5rem;
+  }
+
+  .soal .wrapper .card-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eaeaea;
+    padding: 0.5rem 0;
+  }
+
+  .soal .wrapper .card-3 p {
+    color: var(--primary);
+  }
+
+  .soal .wrapper .card-3 .sebelum {
+    background-color: #fff;
+    border-radius: 5px 0 0 5px;
+    padding: 0.5rem 1rem;
+  }
+
+  .soal .wrapper .card-3 .sesudah {
+    border-radius: 0 5px 5px 0;
+    background-color: #fff;
+    border-left: 1px solid #bbbbbb;
+    padding: 0.5rem 1.5rem 0.5rem 1.2rem;
+  }
+}
